@@ -5,11 +5,11 @@ const port = 3000;
 app.use(express.static(__dirname));
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/Home.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 app.get('/Home', (req, res) => {
-  res.sendFile(__dirname + '/Home.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 app.get('/About', (req, res) => {
