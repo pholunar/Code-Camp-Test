@@ -13,15 +13,15 @@ app.get('/Home', (req, res) => {
 });
 
 app.get('/About', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/About.html');
 });
 
 app.get('/Contact', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/Contact.html');
 })
 
 app.get('/Review',  (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/Reviews.html');
 })
 
 app.listen(port, () => {
